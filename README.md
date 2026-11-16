@@ -22,6 +22,22 @@ OxideCut is **free to use, but not open source**: the source code is not publish
 
 A laser can burn, blind and start fires. Wear eye protection, ventilate, never leave a running job unattended, and check the toolpath, speed and power before every job. OxideCut was tested in simulation and with a virtual machine; behaviour on your hardware may differ. See the license for the full terms.
 
+## Install from PowerShell (optional)
+
+Downloads the latest installer and installs it silently for your user (no administrator rights):
+
+```powershell
+$r = Invoke-RestMethod "https://api.github.com/repos/abduhalmawla-tech/OxideCut/releases/latest"
+$a = $r.assets | Where-Object name -like "OxideCut-Setup-*.exe" | Select-Object -First 1
+$f = Join-Path $env:TEMP $a.name
+Invoke-WebRequest $a.browser_download_url -OutFile $f
+& $f /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+```
+
+Useful options: `/DIR="D:\OxideCut"` (install folder), `/LANG=arabic` (installer language).
+To remove it silently: `& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT`
+(use your install folder if you chose another one). Your settings in `%APPDATA%\OxideCut` are kept.
+
 ## Windows warning
 
 The installer is not signed with a paid code-signing certificate, so Windows SmartScreen may say "unknown publisher". Choose **More info > Run anyway** if you downloaded it from this page.
@@ -55,6 +71,13 @@ OxideCut **مجاني الاستعمال لكنه ليس مفتوح المصدر
 ## السلامة
 
 الليزر قد يحرق ويعمي ويسبب حرائق. ارتدِ حماية للعينين، وهوِّ المكان، ولا تترك مهمة تعمل دون مراقبة، وافحص المسار والسرعة والقوة قبل كل مهمة. جُرّب البرنامج بالمحاكاة وبجهاز افتراضي، وقد يختلف سلوكه على جهازك. التفاصيل في الترخيص.
+
+## التثبيت من PowerShell (اختياري)
+
+ينزّل آخر مثبّت ويثبّته بصمت للمستخدم الحالي (بدون صلاحيات مدير). الأوامر نفسها المكتوبة أعلاه بالإنجليزية، شغّلها في PowerShell.
+
+خيارات مفيدة: `/DIR="D:\OxideCut"` لتحديد مجلد التثبيت، و`/LANG=arabic` للغة المثبّت.
+للإزالة بصمت: `& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT` (استعمل مجلد تثبيتك إن اخترت غير الافتراضي). إعداداتك في `%APPDATA%\OxideCut` تبقى.
 
 ## تحذير Windows
 
