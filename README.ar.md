@@ -55,8 +55,27 @@ Invoke-WebRequest $a.browser_download_url -OutFile $f
 
 </div>
 
-خيارات مفيدة: `/DIR="D:\OxideCut"` لتحديد مجلد التثبيت، و`/LANG=arabic` للغة المثبّت.
-للإزالة بصمت: `& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT` (استعمل مجلد تثبيتك إن اخترت غير الافتراضي). إعداداتك في `%APPDATA%\OxideCut` تبقى.
+للتثبيت في مجلد تختاره وبلغة تختارها، أضف هذين بعد `/NORESTART`:
+
+<div dir="ltr" align="left">
+
+```powershell
+/DIR="D:\OxideCut" /LANG=arabic
+```
+
+</div>
+
+للإزالة بصمت (استعمل مجلد تثبيتك إن اخترت غير الافتراضي):
+
+<div dir="ltr" align="left">
+
+```powershell
+& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT
+```
+
+</div>
+
+إعداداتك في `%APPDATA%\OxideCut` تبقى.
 
 ## تحذير Windows
 

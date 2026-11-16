@@ -49,9 +49,19 @@ Invoke-WebRequest $a.browser_download_url -OutFile $f
 & $f /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
-Useful options: `/DIR="D:\OxideCut"` (install folder), `/LANG=arabic` (installer language).
-To remove it silently: `& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT`
-(use your install folder if you chose another one). Your settings in `%APPDATA%\OxideCut` are kept.
+To install into a folder of your choice and in the language of your choice, add these after `/NORESTART`:
+
+```powershell
+/DIR="D:\OxideCut" /LANG=arabic
+```
+
+To remove it silently (use your install folder if you chose another one):
+
+```powershell
+& "$env:LOCALAPPDATA\Programs\OxideCut\unins000.exe" /VERYSILENT
+```
+
+Your settings in `%APPDATA%\OxideCut` are kept.
 
 ## Windows warning
 
