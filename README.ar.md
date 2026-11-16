@@ -55,12 +55,12 @@ Invoke-WebRequest $a.browser_download_url -OutFile $f
 
 </div>
 
-للتثبيت في مجلد تختاره وبلغة تختارها، أضف هذين بعد `/NORESTART`:
+للتثبيت في مجلد تختاره وبلغة تختارها (`/LANG=english` أو `/LANG=arabic`)، أضف هذين بعد `/NORESTART`:
 
 <div dir="ltr" align="left">
 
 ```powershell
-/DIR="D:\OxideCut" /LANG=arabic
+/DIR="D:\OxideCut" /LANG=english
 ```
 
 </div>

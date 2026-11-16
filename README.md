@@ -52,8 +52,10 @@ Invoke-WebRequest $a.browser_download_url -OutFile $f
 To install into a folder of your choice and in the language of your choice, add these after `/NORESTART`:
 
 ```powershell
-/DIR="D:\OxideCut" /LANG=arabic
+/DIR="D:\OxideCut" /LANG=english
 ```
+
+(`/LANG=english` or `/LANG=arabic` sets the language of the installer.)
 
 To remove it silently (use your install folder if you chose another one):
 
