@@ -1,0 +1,35 @@
+﻿OxideCut - End User License Agreement
+
+Copyright (c) 2026 Abdulrahman Hussein Al-Mawla. All rights reserved.
+
+By installing or using OxideCut you agree to these terms.
+
+1. Free to use. You may install and use OxideCut for free, for personal and commercial work, on any number
+   of your own computers. No registration and no payment are needed.
+
+2. What you may not do. Without the written permission of the author you may not:
+   - modify the program, or make products based on it;
+   - decompile, disassemble or reverse engineer it, or try to get its source code;
+   - sell, rent, lease or sublicense it, or charge for access to it;
+   - redistribute it, except by sending people to the author's official download page.
+   OxideCut is not open source. The author keeps all rights that are not given here.
+
+3. Laser safety. A laser can burn, blind and start fires. You are responsible for safe use of your machine:
+   eye protection, ventilation, never leaving a running job unattended, and following the instructions of
+   your machine's maker. Check the toolpath, the speeds, the powers and the work area yourself before every job.
+
+4. No warranty. OxideCut is provided "as is", without any warranty, express or implied, including fitness for
+   a particular purpose. It was tested in simulation and with a virtual machine; behaviour on your hardware
+   may differ.
+
+5. Limit of liability. To the extent the law allows, the author is not liable for any damage, loss, injury
+   or fire, direct or indirect, caused by using the program or by errors in it, including damage to
+   materials, machines, files or property.
+
+6. Updates and privacy. The program may look for a newer version when it starts (this can be switched off in
+   Settings). It sends only its version number to GitHub, and installs only updates that carry the author's
+   digital signature. It does not collect or send your projects, files or personal data.
+
+7. Ending. These terms end if you break them. Then you must stop using the program and delete your copies.
+
+Questions and bug reports: abdu.h.almawla@gmail.com
