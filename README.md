@@ -18,6 +18,19 @@ OxideCut is **free to use, but not open source**: the source code is not publish
 - Export the layout as SVG or DXF.
 - Updates from inside the program (Help > Check for updates). Only files signed by the author are installed.
 
+## Help me test it
+
+OxideCut is new, and the best way to make it better is real use. Please try it and tell me **everything** that goes wrong or feels awkward: crashes, wrong results, confusing screens, missing features, bad Arabic text or layout, anything.
+
+1. Open an [issue](../../issues/new/choose) (a GitHub account is free).
+2. In the program, open **Help > About** and press **Copy diagnostic info**, then paste it into the issue. It holds the version, Windows version and the machine state, and hides your user name. It never contains your projects.
+3. Say what you did, what you expected and what happened. A screenshot helps. A small project file that shows the problem helps even more (remove anything private first).
+
+Good to know:
+- Try new jobs on scrap material first, and stay next to the machine.
+- Tests so far were in simulation and on a virtual machine, so reports from **real GRBL machines** (model, firmware version, what worked, what did not) are especially valuable.
+- Ideas are welcome too: use the issue type "Idea".
+
 ## Safety
 
 A laser can burn, blind and start fires. Wear eye protection, ventilate, never leave a running job unattended, and check the toolpath, speed and power before every job. OxideCut was tested in simulation and with a virtual machine; behaviour on your hardware may differ. See the license for the full terms.
@@ -67,6 +80,19 @@ OxideCut **مجاني الاستعمال لكنه ليس مفتوح المصدر
 - الاتصال بجهاز حقيقي عبر USB أو التجربة على جهاز افتراضي مدمج.
 - تصدير التصميم بصيغة SVG أو DXF.
 - التحديث من داخل البرنامج (مساعدة ← بحث عن تحديثات)، ولا يُثبَّت إلا ما وقّعه المطوّر.
+
+## ساعدني بالتجربة
+
+OxideCut برنامج جديد، وأفضل طريقة لتحسينه هي الاستعمال الحقيقي. جرّبه من فضلك وأخبرني بـ**كل** ما يسوء أو يزعجك: انهيار، نتيجة خاطئة، شاشة محيّرة، ميزة ناقصة، نص عربي أو ترتيب غير سليم، أي شيء.
+
+1. افتح [بلاغًا (Issue)](../../issues/new/choose) (حساب GitHub مجاني).
+2. في البرنامج افتح **مساعدة ← حول** واضغط **نسخ معلومات التشخيص** ثم الصقها في البلاغ. فيها الإصدار وإصدار Windows وحالة الجهاز، وتخفي اسم المستخدم، ولا تحتوي مشاريعك أبدًا.
+3. اكتب ماذا فعلت وماذا توقعت وماذا حدث. لقطة الشاشة تفيد، وملف مشروع صغير يُظهر المشكلة يفيد أكثر (احذف منه أي شيء خاص).
+
+مفيد أن تعرف:
+- جرّب المهام الجديدة على خامة للتجربة أولًا، وابقَ بجانب الجهاز.
+- الاختبارات السابقة كانت بالمحاكاة وبجهاز افتراضي، لذلك بلاغات **أجهزة GRBL الحقيقية** (الطراز، إصدار البرنامج الثابت، ما نجح وما لم ينجح) ثمينة جدًا.
+- الأفكار مرحّب بها أيضًا: اختر نوع البلاغ «فكرة».
 
 ## السلامة
 
