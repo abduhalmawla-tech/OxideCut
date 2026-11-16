@@ -1,0 +1,186 @@
+{
+  "devices": [
+    {
+      "brand": "Sculpfun",
+      "checked": "2026-11",
+      "height": 420.0,
+      "kind": "diode",
+      "model": "S9 (5.5 W)",
+      "source": "https://eu.sculpfun.com/products/sculpfun-s9-laser-engraver",
+      "width": 410.0
+    },
+    {
+      "brand": "Sculpfun",
+      "checked": "2026-11",
+      "height": 410.0,
+      "kind": "diode",
+      "model": "S9 Pro (10 W)",
+      "source": "https://www.sculpfun.com/products/sculpfun-s9-pro-10w-laser-engraving-machine",
+      "width": 400.0
+    },
+    {
+      "brand": "Sculpfun",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "S30 Pro (10 W)",
+      "source": "https://www.sculpfun.com/blogs/blog/sculpfun-s30-series",
+      "width": 410.0
+    },
+    {
+      "brand": "Sculpfun",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "S30 Pro Max (20 W)",
+      "source": "https://www.sculpfun.com/blogs/blog/sculpfun-s30-series",
+      "width": 410.0
+    },
+    {
+      "brand": "AlgoLaser",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "Alpha 10 W",
+      "source": "https://algolaser.com/collections/laser-engraver-machine/products/algolaser-alpha-10w-diode-laser-engraver",
+      "width": 400.0
+    },
+    {
+      "brand": "AlgoLaser",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "Alpha 22 W",
+      "source": "https://algolaser.com/pages/comparison-of-alpha-and-delta-parameters",
+      "width": 400.0
+    },
+    {
+      "brand": "xTool",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "D1 Pro 5 W",
+      "source": "https://www.xtool.eu/nl/products/xtool-d1-pro-20w-desktop-laser-engraver-snijmachine",
+      "width": 430.0
+    },
+    {
+      "brand": "xTool",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "D1 Pro 10 W",
+      "source": "https://www.xtool.eu/nl/products/xtool-d1-pro-20w-desktop-laser-engraver-snijmachine",
+      "width": 430.0
+    },
+    {
+      "brand": "xTool",
+      "checked": "2026-11",
+      "height": 390.0,
+      "kind": "diode",
+      "model": "D1 Pro 20 W",
+      "source": "https://www.xtool.eu/nl/products/xtool-d1-pro-20w-desktop-laser-engraver-snijmachine",
+      "width": 430.0
+    },
+    {
+      "brand": "Atomstack",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "A5 Pro (40 W)",
+      "source": "https://atomstack.com/products/atomstack-a5-pro-laser-engraver-40w-laser-engraving-cutting-machine-for-wood-metal-410x400mm",
+      "width": 410.0
+    },
+    {
+      "brand": "Atomstack",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "A5 Pro+ (40 W)",
+      "source": "https://atomstack.com/products/atomstack-a5-pro-plus",
+      "width": 410.0
+    },
+    {
+      "brand": "Atomstack",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "A20 Max",
+      "source": "https://atomstack.com/products/atomstack-a20-max",
+      "width": 850.0
+    },
+    {
+      "brand": "Ortur",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "Laser Master 3 (10 W)",
+      "source": "https://ortur.net/de/pages/support-olm3",
+      "width": 400.0
+    },
+    {
+      "brand": "Ortur",
+      "checked": "2026-11",
+      "height": 380.0,
+      "kind": "diode",
+      "model": "Laser Master 3 (20 W)",
+      "source": "https://ortur.net/de/pages/support-olm3",
+      "width": 400.0
+    },
+    {
+      "brand": "Creality",
+      "checked": "2026-11",
+      "height": 415.0,
+      "kind": "diode",
+      "model": "Falcon2 12 W",
+      "source": "https://wiki.creality.com/en/laser-engraver/falcon2/user-manual",
+      "width": 400.0
+    },
+    {
+      "brand": "Creality",
+      "checked": "2026-11",
+      "height": 415.0,
+      "kind": "diode",
+      "model": "Falcon2 22 W",
+      "source": "https://wiki.creality.com/en/laser-engraver/falcon2/user-manual",
+      "width": 400.0
+    },
+    {
+      "brand": "Creality",
+      "checked": "2026-11",
+      "height": 415.0,
+      "kind": "diode",
+      "model": "Falcon2 40 W",
+      "source": "https://wiki.creality.com/en/laser-engraver/falcon2/user-manual",
+      "width": 400.0
+    },
+    {
+      "brand": "Longer",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "Ray5 5 W",
+      "source": "https://longer3d.com/products/longer-ray5-10w-laser-engraver",
+      "width": 400.0
+    },
+    {
+      "brand": "Longer",
+      "checked": "2026-11",
+      "height": 400.0,
+      "kind": "diode",
+      "model": "Ray5 10 W",
+      "source": "https://longer3d.com/products/longer-ray5-10w-laser-engraver",
+      "width": 400.0
+    },
+    {
+      "brand": "Longer",
+      "checked": "2026-11",
+      "height": 365.0,
+      "kind": "diode",
+      "model": "Ray5 20 W",
+      "source": "https://longer3d.com/products/longer-ray5-10w-laser-engraver",
+      "width": 400.0
+    }
+  ],
+  "format": 1,
+  "revision": 2
+}
